@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "7.1.31",
+	"version": "7.1.32",
 	"description": "ctx-core scroll",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -30,8 +30,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/logger": "^3.1.12",
-		"@ctx-core/object": "^6.3.11",
-		"@ctx-core/store": "^13.0.0",
+		"@ctx-core/object": "^6.4.0",
+		"@ctx-core/store": "^13.0.1",
 		"svelte": "^3.16.7"
 	},
 	"devDependencies": {
