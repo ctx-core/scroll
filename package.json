@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "7.2.19",
+	"version": "7.2.20",
 	"description": "ctx-core scroll",
 	"main": "lib.js",
 	"module": "lib.js",
