@@ -32,10 +32,10 @@
 		"@ctx-core/logger": "^3.1.17",
 		"@ctx-core/object": "^8.0.14",
 		"@ctx-core/store": "^13.1.32",
-		"svelte": "^3.23.0"
+		"svelte": "^3.23.1"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.3"
+		"typescript": "^3.9.5"
 	},
 	"gitHead": "14c4fbec85ffe735eb67710f911aae5021912bd0"
 }
