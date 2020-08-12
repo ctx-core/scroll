@@ -1,7 +1,5 @@
 import { writable, get, Writable } from 'svelte/store'
 import { assign, clone, _b } from '@ctx-core/object'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/scroll/store.js'
 export interface Writable__active__Sticky__Scroll extends Writable<any> {
 	add__active__Sticky__Scroll:(key:string)=>void
 	remove__active__Sticky__Scroll:(key:string)=>void
@@ -17,7 +15,6 @@ export const b__active__Sticky__Scroll = _b<Writable__active__Sticky__Scroll>('_
 		_match__active__Sticky__Scroll,
 	})
 	function add__active__Sticky__Scroll(key) {
-		log(`${logPrefix}|add__active__Sticky__Scroll`)
 		__active__Sticky__Scroll.update(
 			__=>{
 				const active__Sticky__Scroll = clone(__)
@@ -26,7 +23,6 @@ export const b__active__Sticky__Scroll = _b<Writable__active__Sticky__Scroll>('_
 			})
 	}
 	function remove__active__Sticky__Scroll(key) {
-		log(`${logPrefix}|remove__active__Sticky__Scroll`)
 		__active__Sticky__Scroll.update(
 			__=>{
 				const active__Sticky__Scroll = clone(__)
@@ -35,7 +31,6 @@ export const b__active__Sticky__Scroll = _b<Writable__active__Sticky__Scroll>('_
 			})
 	}
 	function _active__active__Sticky__Scroll(key) {
-		log(`${logPrefix}|_active__active__Sticky__Scroll`)
 		const active__Sticky__Scroll = get(__active__Sticky__Scroll)
 		const active =
 			active__Sticky__Scroll

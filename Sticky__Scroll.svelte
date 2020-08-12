@@ -1,11 +1,9 @@
 <script>
-import { onMount, onDestroy } from 'svelte'
+import { onMount, onDestroy, createEventDispatcher } from 'svelte'
 import {
-	_is__visible__,
-	_is__active__
+	_is__visible__, _is__active__
 } from './lib'
-import { log, debug } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/scroll/Sticky__Scroll.svelte'
+const dispatch = createEventDispatcher()
 let getBoundingClientRect = getBoundingClientRect__default
 let terminal = null
 let root = null
@@ -22,7 +20,6 @@ onMount(() => {
 	}
 })
 onDestroy(() => {
-	log(`${logPrefix}|onDestroy`)
 	if (terminal) {
 		if (terminal.removeEventListener) {
 			terminal.removeEventListener('scroll', reset)
