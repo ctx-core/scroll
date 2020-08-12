@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "7.2.76",
+	"version": "7.2.77",
 	"description": "ctx-core scroll",
 	"main": "./index.js",
 	"module": "./index.js",
