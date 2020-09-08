@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "7.2.84",
+	"version": "7.2.85",
 	"description": "ctx-core scroll",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/object": "^10.0.2",
-		"@ctx-core/store": "^16.2.4",
+		"@ctx-core/store": "^16.2.5",
 		"svelte": "^3.24.1"
 	},
 	"devDependencies": {
