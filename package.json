@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/scroll",
-  "version": "7.2.90",
+  "version": "7.2.91",
   "description": "ctx-core scroll",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },
