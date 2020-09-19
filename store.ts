@@ -1,13 +1,14 @@
 import { writable, get, Writable } from 'svelte/store'
 import { assign, clone, _b } from '@ctx-core/object'
-export interface Writable__active__Sticky__Scroll extends Writable<any> {
+export type $type__active__Sticky__Scroll = Record<string, boolean>
+export interface type__active__Sticky__Scroll extends Writable<$type__active__Sticky__Scroll> {
 	add__active__Sticky__Scroll:(key:string)=>void
 	remove__active__Sticky__Scroll:(key:string)=>void
 	_active__active__Sticky__Scroll:(key:string)=>void
 	_match__active__Sticky__Scroll:(key:string, active:any)=>void
 }
-export const b__active__Sticky__Scroll = _b<Writable__active__Sticky__Scroll>('__active__Sticky__Scroll', ()=>{
-	const __active__Sticky__Scroll = writable({})
+export const b__active__Sticky__Scroll = _b<type__active__Sticky__Scroll>('__active__Sticky__Scroll', ()=>{
+	const __active__Sticky__Scroll = writable({}) as type__active__Sticky__Scroll
 	return assign(__active__Sticky__Scroll, {
 		add__active__Sticky__Scroll,
 		remove__active__Sticky__Scroll,

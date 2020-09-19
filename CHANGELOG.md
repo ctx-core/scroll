@@ -1,5 +1,17 @@
 # @ctx-core/scroll
 
+## 8.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.0
+  - @ctx-core/store@17.0.0
+
 ## 7.2.91
 
 ### Patch Changes
