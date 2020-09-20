@@ -1,41 +1,40 @@
 {
-  "name": "@ctx-core/scroll",
-  "version": "8.0.1",
-  "description": "ctx-core scroll",
-  "keywords": [
-    "ctx-core",
-    "scroll"
-  ],
-  "homepage": "https://github.com/ctx-core/scroll#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/scroll/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/scroll/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/object": "workspace:*",
-    "@ctx-core/store": "workspace:*",
-    "svelte": "~3.25.1"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "ab5fcc6b5c0ebf1302fa73dbff19e1626c20b54a"
+	"name": "@ctx-core/scroll",
+	"version": "8.0.1",
+	"description": "ctx-core scroll",
+	"keywords": [
+		"ctx-core",
+		"scroll"
+	],
+	"homepage": "https://github.com/ctx-core/scroll#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/scroll/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/scroll/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/store": "workspace:*",
+		"svelte": "~3.25.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
