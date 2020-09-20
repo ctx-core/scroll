@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 8.0.5
+
+### Patch Changes
+
+- version bump: sync with npm
+
 ## 8.0.4
 
 ### Patch Changes
