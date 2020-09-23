@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 8.0.17
+
+### Patch Changes
+
+- @ctx-core/store@17.2.2
+
 ## 8.0.16
 
 ### Patch Changes
