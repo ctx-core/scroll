@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 8.0.45
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+
 ## 8.0.44
 
 ### Patch Changes
