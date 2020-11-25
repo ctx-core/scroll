@@ -44,9 +44,12 @@ export const {
 	_match__active__Sticky__Scroll,
 } = __active__Sticky__Scroll
 export type $type__active__Sticky__Scroll = Record<string, boolean>
-export type type__active__Sticky__Scroll = Writable<$type__active__Sticky__Scroll>&{
+export interface active_Sticky_Scroll_interface {
 	add__active__Sticky__Scroll:(key:string)=>void
 	remove__active__Sticky__Scroll:(key:string)=>void
 	_active__active__Sticky__Scroll:(key:string)=>void
 	_match__active__Sticky__Scroll:(key:string, active:any)=>void
 }
+export type type__active__Sticky__Scroll =
+	Writable<$type__active__Sticky__Scroll>
+	&active_Sticky_Scroll_interface
