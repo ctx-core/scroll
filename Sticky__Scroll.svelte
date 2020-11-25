@@ -1,7 +1,7 @@
 <script>
 import { onMount, onDestroy, createEventDispatcher } from 'svelte'
 import {
-	_is__visible__, _is__active__
+	_out_is_visible, _out_is_active
 } from './lib'
 const dispatch = createEventDispatcher()
 let getBoundingClientRect = getBoundingClientRect__default
@@ -37,8 +37,8 @@ onDestroy(() => {
 function reset(event) {
 	const { top, bottom } = getBoundingClientRect(root)
 	const { innerHeight } = window
-	const active__ = _is__active__(top, bottom)
-	const visible__ = _is__visible__(top, bottom, innerHeight)
+	const active__ = _out_is_active(top, bottom)
+	const visible__ = _out_is_visible(top, bottom, innerHeight)
 	if (visible__) {
 		if (!visible) {
 			add__visible()
