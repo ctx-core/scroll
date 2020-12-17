@@ -1,5 +1,15 @@
 # @ctx-core/scroll
 
+## 8.2.6
+
+### Patch Changes
+
+- interface instead of type: \$sticky_scroll_active_type,sticky_scroll_active_type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.4
+  - @ctx-core/store@23.1.8
+
 ## 8.2.5
 
 ### Patch Changes
