@@ -1,13 +1,13 @@
 import { assign, clone, _b } from '@ctx-core/object'
 import { writable, get, Writable } from '@ctx-core/store'
-export const sticky_scroll_active_b = _b<sticky_scroll_active_type>('sticky_scroll_active', ()=>{
+export const sticky_scroll_active_b = _b('sticky_scroll_active', ()=>{
 	const sticky_scroll_active = writable<$sticky_scroll_active_type>({})
 	return assign(sticky_scroll_active, {
 		add_sticky_scroll_active,
 		remove_sticky_scroll_active,
 		_sticky_scroll_active_key_active,
 		_sticky_scroll_active_key_match,
-	})
+	}) as sticky_scroll_active_type
 	function add_sticky_scroll_active(key) {
 		sticky_scroll_active.update(
 			__=>{
@@ -36,16 +36,13 @@ export const sticky_scroll_active_b = _b<sticky_scroll_active_type>('sticky_scro
 		return !!(active) == !!(_sticky_scroll_active_key_active(key))
 	}
 })
-export type $sticky_scroll_active_type = Record<string, boolean>
-export interface active_Sticky_Scroll_interface {
+export interface $sticky_scroll_active_type extends Record<string, boolean> {}
+export interface sticky_scroll_active_type extends Writable<$sticky_scroll_active_type> {
 	add_sticky_scroll_active:(key:string)=>void
 	remove_sticky_scroll_active:(key:string)=>void
 	_sticky_scroll_active_key_active:(key:string)=>void
 	_sticky_scroll_active_key_match:(key:string, active:any)=>void
 }
-export type sticky_scroll_active_type =
-	Writable<$sticky_scroll_active_type>
-	&active_Sticky_Scroll_interface
 export {
 	sticky_scroll_active_b as b__active__Sticky__Scroll,
 }
