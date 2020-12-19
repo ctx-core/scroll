@@ -1,5 +1,12 @@
 # @ctx-core/scroll
 
+## 8.2.10
+
+### Patch Changes
+
+- @ctx-core/object@15.0.7
+- @ctx-core/store@23.1.12
+
 ## 8.2.9
 
 ### Patch Changes
