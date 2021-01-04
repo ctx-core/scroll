@@ -1,5 +1,5 @@
 import { Writable } from '@ctx-core/store';
-export declare const sticky_scroll_active_b: (ctx: object, opts?: import("@ctx-core/object")._be_opts_type | undefined) => sticky_scroll_active_type;
+export declare const sticky_scroll_active_b: import("@ctx-core/object").be_type<sticky_scroll_active_type, object>;
 export interface $sticky_scroll_active_type extends Record<string, boolean> {
 }
 export interface sticky_scroll_active_type extends Writable<$sticky_scroll_active_type> {
