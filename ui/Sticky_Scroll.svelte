@@ -2,7 +2,7 @@
 import { onMount, onDestroy, createEventDispatcher } from 'svelte'
 import {
 	_out_is_visible, _out_is_active
-} from './lib'
+} from '../src'
 const dispatch = createEventDispatcher()
 let getBoundingClientRect = getBoundingClientRect__default
 let terminal = null
@@ -99,7 +99,7 @@ function _event() {
 
 <div
 	bind:this="{root}"
-	class="Sticky__Scroll {$$props.class||''}"
+	class="Sticky_Scroll {$$props.class||''}"
 	class:active="{active}"
 >
 	<slot></slot>
