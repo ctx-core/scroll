@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 9.1.2
+
+### Patch Changes
+
+- @ctx-core/store@24.0.3
+
 ## 9.1.1
 
 ### Patch Changes
