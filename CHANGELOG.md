@@ -1,5 +1,12 @@
 # @ctx-core/scroll
 
+## 9.1.9
+
+### Patch Changes
+
+- @ctx-core/object@17.0.4
+- @ctx-core/store@24.0.10
+
 ## 9.1.8
 
 ### Patch Changes
