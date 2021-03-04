@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 9.1.24
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.2.1
+  - @ctx-core/store@24.1.7
+
 ## 9.1.23
 
 ### Patch Changes
