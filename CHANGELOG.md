@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 9.1.47
+
+### Patch Changes
+
+- update dependencies
+
 ## 9.1.46
 
 ### Patch Changes
