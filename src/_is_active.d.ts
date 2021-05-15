@@ -1,1 +1,1 @@
-export declare function _is_active(el: any): boolean;
+export declare function _is_active(el: HTMLElement): boolean;

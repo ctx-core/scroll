@@ -8,7 +8,7 @@ export const sticky_scroll_active_b = _b('sticky_scroll_active', ()=>{
 		_sticky_scroll_active_key_active,
 		_sticky_scroll_active_key_match,
 	}) as sticky_scroll_active_type
-	function add_sticky_scroll_active(key) {
+	function add_sticky_scroll_active(key:string) {
 		sticky_scroll_active.update(
 			__=>{
 				const active__Sticky__Scroll = clone(__)
@@ -16,7 +16,7 @@ export const sticky_scroll_active_b = _b('sticky_scroll_active', ()=>{
 				return active__Sticky__Scroll
 			})
 	}
-	function remove_sticky_scroll_active(key) {
+	function remove_sticky_scroll_active(key:string) {
 		sticky_scroll_active.update(
 			__=>{
 				const active__Sticky__Scroll = clone(__)
@@ -24,7 +24,7 @@ export const sticky_scroll_active_b = _b('sticky_scroll_active', ()=>{
 				return active__Sticky__Scroll
 			})
 	}
-	function _sticky_scroll_active_key_active(key) {
+	function _sticky_scroll_active_key_active(key:string) {
 		const $sticky_scroll_active = get(sticky_scroll_active)
 		const active =
 			$sticky_scroll_active
@@ -32,7 +32,7 @@ export const sticky_scroll_active_b = _b('sticky_scroll_active', ()=>{
 			: false
 		return active
 	}
-	function _sticky_scroll_active_key_match(key, active) {
+	function _sticky_scroll_active_key_match(key:string, active:boolean) {
 		return !!(active) == !!(_sticky_scroll_active_key_active(key))
 	}
 })

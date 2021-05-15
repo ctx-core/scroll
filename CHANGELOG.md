@@ -1,5 +1,17 @@
 # @ctx-core/scroll
 
+## 9.2.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.6.0
+  - @ctx-core/store@24.8.0
+
 ## 9.1.71
 
 ### Patch Changes
