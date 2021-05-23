@@ -1,10 +1,8 @@
 import { assign, clone, _b } from '@ctx-core/object'
 import { writable$, Writable$ } from '@ctx-core/store'
+import type { scroll_Ctx } from './scroll_Ctx'
 const key = 'sticky_scroll_active'
-export interface sticky_scroll_active_Ctx {
-	sticky_scroll_active?:sticky_scroll_active_T
-}
-export const sticky_scroll_active_b = _b<sticky_scroll_active_Ctx, typeof key>(key, ()=>{
+export const sticky_scroll_active_b = _b<scroll_Ctx, typeof key>(key, ()=>{
 	const sticky_scroll_active = writable$<$sticky_scroll_active_T>({})
 	return assign(sticky_scroll_active, {
 		add_sticky_scroll_active,
