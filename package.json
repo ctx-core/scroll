@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "9.4.0",
+	"version": "9.4.1",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -27,8 +27,8 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/object": "workspace:^18.1.0",
-		"@ctx-core/store": "workspace:^24.9.0",
+		"@ctx-core/object": "workspace:^18.1.1",
+		"@ctx-core/store": "workspace:^24.9.1",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {

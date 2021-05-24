@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 9.4.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/object@18.1.1
+  - @ctx-core/store@24.9.1
+
 ## 9.4.0
 
 ### Minor Changes
