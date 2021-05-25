@@ -1,5 +1,17 @@
 # @ctx-core/scroll
 
+## 9.5.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@18.2.0
+  - @ctx-core/store@24.10.0
+
 ## 9.4.1
 
 ### Patch Changes
