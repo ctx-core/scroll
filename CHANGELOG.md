@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 9.5.3
+
+### Patch Changes
+
+- - scroll_b_h_b
+
 ## 9.5.2
 
 ### Patch Changes
