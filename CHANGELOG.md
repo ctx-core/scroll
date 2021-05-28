@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 9.5.4
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+
 ## 9.5.3
 
 ### Patch Changes
