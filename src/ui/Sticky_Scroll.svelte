@@ -1,10 +1,9 @@
 <script>
 import { onMount, onDestroy, createEventDispatcher } from 'svelte'
-import {
-	_out_is_visible, _out_is_active
-} from '../src'
+import { out_is_active_ } from '../out_is_active_'
+import { out_is_visible_ } from '../out_is_visible_'
 const dispatch = createEventDispatcher()
-let getBoundingClientRect = getBoundingClientRect__default
+let getBoundingClientRect = default_getBoundingClientRect
 let terminal = null
 let root = null
 let active
@@ -27,60 +26,60 @@ onDestroy(() => {
 			terminal.off('scroll', reset)
 		}
 	}
-	if (contains__visible()) {
-		remove__visible()
+	if (contains_visible()) {
+		remove_visible()
 	}
-	if (contains__active()) {
-		remove__active()
+	if (contains_active()) {
+		remove_active()
 	}
 })
 function reset(event) {
 	const { top, bottom } = getBoundingClientRect(root)
 	const { innerHeight } = window
-	const active__ = _out_is_active(top, bottom)
-	const visible__ = _out_is_visible(top, bottom, innerHeight)
-	if (visible__) {
+	const out_is_active= out_is_active_(top, bottom)
+	const out_is_visible = out_is_visible_(top, bottom, innerHeight)
+	if (out_is_visible) {
 		if (!visible) {
-			add__visible()
+			add_visible()
 		}
 	} else {
 		if (visible) {
-			remove__visible()
+			remove_visible()
 		}
 	}
-	if (active__) {
+	if (out_is_active) {
 		if (!active) {
-			add__active()
+			add_active()
 		}
 	} else {
 		if (active) {
-			remove__active()
+			remove_active()
 		}
 	}
 }
-function add__active() {
+function add_active() {
 	active = true
-	dispatch('add__active', _event())
+	dispatch('add_active', _event())
 }
-function remove__active() {
+function remove_active() {
 	active = false
-	dispatch('remove__active', _event())
+	dispatch('remove_active', _event())
 }
-function add__visible() {
+function add_visible() {
 	visible = true
-	dispatch('add__visible', _event())
+	dispatch('add_visible', _event())
 }
-function remove__visible() {
+function remove_visible() {
 	visible = false
-	dispatch('remove__visible', _event())
+	dispatch('remove_visible', _event())
 }
-function getBoundingClientRect__default() {
+function default_getBoundingClientRect() {
 	return root.getBoundingClientRect()
 }
-function contains__visible() {
+function contains_visible() {
 	return root.classList.contains('visible')
 }
-function contains__active() {
+function contains_active() {
 	return root.classList.contains('active')
 }
 function _event() {
