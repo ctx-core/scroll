@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 10.0.15
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/store@25.1.15
+
 ## 10.0.14
 
 ### Patch Changes
