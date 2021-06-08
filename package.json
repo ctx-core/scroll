@@ -30,11 +30,11 @@
 	},
 	"dependencies": {
 		"@ctx-core/object": "workspace:^19.1.4",
-		"@ctx-core/store": "workspace:^25.1.15",
+		"@ctx-core/store": "workspace:^25.1.16",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.16",
+		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.17",
 		"@ctx-core/dev-tools": "workspace:^5.1.4",
 		"typescript": "^4.3.2"
 	},
