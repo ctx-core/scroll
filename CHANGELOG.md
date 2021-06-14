@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 11.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+
 ## 11.0.0
 
 ### Major Changes
