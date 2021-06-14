@@ -1,1 +1,0 @@
-../../src/ui/Sticky_Scroll.svelte
