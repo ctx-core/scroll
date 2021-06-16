@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 11.0.2
+
+### Patch Changes
+
+- update dependencies
+
 ## 11.0.1
 
 ### Patch Changes
