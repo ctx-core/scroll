@@ -1,1 +1,0 @@
-{"version":3,"file":"out_is_visible_.js","sourceRoot":"","sources":["../out_is_visible_.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAA;AACjD,MAAM,UAAU,eAAe,CAAC,GAAU,EAAE,MAAa,EAAE,WAAkB;IAC5E,OAAO,CAAC,GAAG,GAAG,CAAC,IAAI,GAAG,GAAG,WAAW,CAAC;WACjC,cAAc,CAAC,GAAG,EAAE,MAAM,CAAC,CAAA;AAChC,CAAC;AACD,OAAO,EACN,eAAe,IAAI,eAAe,GAClC,CAAA"}
