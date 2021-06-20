@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "11.0.7",
+	"version": "11.0.8",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -24,17 +24,17 @@
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
-		"prepare": "npm run build",
+		"prepare": "npm run clean && npm run compile",
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/object": "workspace:^20.0.5",
-		"@ctx-core/store": "workspace:^26.0.6",
+		"@ctx-core/object": "workspace:^20.0.6",
+		"@ctx-core/store": "workspace:^26.0.7",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.6",
-		"@ctx-core/dev-tools": "workspace:^6.0.5",
+		"@ctx-core/dev-tools": "workspace:^6.0.6",
 		"typescript": "^4.3.4"
 	},
 	"publishConfig": {
