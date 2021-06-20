@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 11.0.9
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/object@20.0.7
+  - @ctx-core/store@26.0.8
+
 ## 11.0.8
 
 ### Patch Changes
