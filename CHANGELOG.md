@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 11.0.6
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/object@20.0.4
+  - @ctx-core/store@26.0.5
+
 ## 11.0.5
 
 ### Patch Changes
