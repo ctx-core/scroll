@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 11.0.10
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/object@20.0.8
+  - @ctx-core/store@26.0.9
+
 ## 11.0.9
 
 ### Patch Changes
