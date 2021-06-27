@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 11.0.17
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/object@20.2.2
+  - @ctx-core/store@26.0.17
+
 ## 11.0.16
 
 ### Patch Changes
