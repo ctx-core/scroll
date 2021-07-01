@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 11.0.20
+
+### Patch Changes
+
+- typescript: ^4.3.4 -> ^4.3.5
+- Updated dependencies [undefined]
+  - @ctx-core/object@20.2.4
+  - @ctx-core/store@26.0.20
+
 ## 11.0.19
 
 ### Patch Changes
