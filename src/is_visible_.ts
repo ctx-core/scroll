@@ -1,4 +1,4 @@
-import { out_is_visible_ } from './out_is_visible_'
+import { out_is_visible_ } from './out_is_visible_.js'
 export function is_visible_(el:HTMLElement) {
 	const { top, bottom } = el.getBoundingClientRect()
 	const { innerHeight } = window
