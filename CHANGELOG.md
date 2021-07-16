@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 12.0.4
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.3
+  - @ctx-core/store@27.0.3
+
 ## 12.0.3
 
 ### Patch Changes
