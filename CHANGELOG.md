@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 12.0.5
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/object@21.0.5
+  - @ctx-core/store@27.0.4
+
 ## 12.0.4
 
 ### Patch Changes
