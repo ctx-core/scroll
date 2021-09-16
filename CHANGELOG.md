@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 12.0.58
+
+### Patch Changes
+
+- svelte: 3.42.5 -> 3.42.6
+- Updated dependencies [undefined]
+  - @ctx-core/store@27.0.31
+
 ## 12.0.57
 
 ### Patch Changes
