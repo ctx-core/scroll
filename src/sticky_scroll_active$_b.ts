@@ -25,7 +25,7 @@ export const sticky_scroll_active$_b:B<scroll_Ctx, typeof key> = b_(key, ()=>{
 			})
 	}
 	function sticky_scroll_active_key_active_(key:string) {
-		const sticky_scroll_active = sticky_scroll_active$._
+		const sticky_scroll_active = sticky_scroll_active$.$
 		const active =
 			sticky_scroll_active
 			? sticky_scroll_active[key]
