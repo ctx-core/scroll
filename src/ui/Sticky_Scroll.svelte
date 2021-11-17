@@ -1,30 +1,20 @@
-<script>
+<script lang="ts">
 import { onMount, onDestroy, createEventDispatcher } from 'svelte'
-import { out_is_active_ } from '../out_is_active_'
-import { out_is_visible_ } from '../out_is_visible_'
+import { out_is_active_ } from '../out_is_active_.js'
+import { out_is_visible_ } from '../out_is_visible_.js'
 const dispatch = createEventDispatcher()
-let getBoundingClientRect = default_getBoundingClientRect
-let terminal = null
-let root = null
-let active
-let visible
-onMount(() => {
-	reset({})
+export let terminal:HTMLElement|null = null
+let getBoundingClientRect = default_getBoundingClientRect, root:HTMLDivElement|null = null,
+	active:boolean, visible:boolean
+onMount(()=>{
+	reset()
 	if (terminal) {
-		if (terminal.addEventListener) {
-			terminal.addEventListener('scroll', reset)
-		} else if (terminal.on) {
-			terminal.on('scroll', reset)
-		}
+		terminal.addEventListener('scroll', reset)
 	}
 })
-onDestroy(() => {
+onDestroy(()=>{
 	if (terminal) {
-		if (terminal.removeEventListener) {
-			terminal.removeEventListener('scroll', reset)
-		} else if (terminal.off) {
-			terminal.off('scroll', reset)
-		}
+		terminal.removeEventListener('scroll', reset)
 	}
 	if (contains_visible()) {
 		remove_visible()
@@ -33,10 +23,10 @@ onDestroy(() => {
 		remove_active()
 	}
 })
-function reset(event) {
-	const { top, bottom } = getBoundingClientRect(root)
+function reset() {
+	const { top, bottom } = getBoundingClientRect()
 	const { innerHeight } = window
-	const out_is_active= out_is_active_(top, bottom)
+	const out_is_active = out_is_active_(top, bottom)
 	const out_is_visible = out_is_visible_(top, bottom, innerHeight)
 	if (out_is_visible) {
 		if (!visible) {
@@ -59,30 +49,30 @@ function reset(event) {
 }
 function add_active() {
 	active = true
-	dispatch('add_active', _event())
+	dispatch('add_active', event_())
 }
 function remove_active() {
 	active = false
-	dispatch('remove_active', _event())
+	dispatch('remove_active', event_())
 }
 function add_visible() {
 	visible = true
-	dispatch('add_visible', _event())
+	dispatch('add_visible', event_())
 }
 function remove_visible() {
 	visible = false
-	dispatch('remove_visible', _event())
+	dispatch('remove_visible', event_())
 }
-function default_getBoundingClientRect() {
-	return root.getBoundingClientRect()
+function default_getBoundingClientRect():DOMRect {
+	return root!.getBoundingClientRect()
 }
 function contains_visible() {
-	return root.classList.contains('visible')
+	return root!.classList.contains('visible')
 }
 function contains_active() {
-	return root.classList.contains('active')
+	return root!.classList.contains('active')
 }
-function _event() {
+function event_() {
 	return {
 		root,
 		target: root,
@@ -92,14 +82,10 @@ function _event() {
 </script>
 
 <svelte:window
-	on:scroll="{reset}"
-	on:resize="{reset}"
+	on:scroll={reset}
+	on:resize={reset}
 />
 
-<div
-	bind:this="{root}"
-	class="Sticky_Scroll {$$props.class||''}"
-	class:active="{active}"
->
+<div bind:this={root} class="Sticky_Scroll {$$props.class||''}" class:active>
 	<slot></slot>
 </div>

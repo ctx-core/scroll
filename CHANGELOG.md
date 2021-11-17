@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 12.0.71
+
+### Patch Changes
+
+- Sticky_Scroll: lang=ts
+
 ## 12.0.70
 
 ### Patch Changes

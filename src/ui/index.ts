@@ -1,3 +1,2 @@
 import 'svelte'
-import Sticky_Scroll from './Sticky_Scroll.svelte'
-export { Sticky_Scroll }
+export * as Sticky_Scroll from './Sticky_Scroll.svelte'
