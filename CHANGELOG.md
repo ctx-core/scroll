@@ -1,5 +1,27 @@
 # @ctx-core/scroll
 
+## 12.0.74
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@21.0.26
+  - @ctx-core/store@27.0.40
+
+## 12.0.73
+
+### Patch Changes
+
+- svelte: 3.44.1 -> 3.44.2
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/store@27.0.39
+  - @ctx-core/object@21.0.25
+
 ## 12.0.72
 
 ### Patch Changes
