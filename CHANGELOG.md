@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 12.0.75
+
+### Patch Changes
+
+- @swc/core: ^1.2.113 -> ^1.2.116
+- Updated dependencies
+  - @ctx-core/object@21.0.27
+  - @ctx-core/store@27.0.41
+
 ## 12.0.74
 
 ### Patch Changes
