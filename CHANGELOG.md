@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 12.0.79
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/store@27.0.45
+
 ## 12.0.78
 
 ### Patch Changes
