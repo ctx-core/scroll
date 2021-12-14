@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 14.0.0
+
+### Major Changes
+
+- extracted @ctx-core/scroll-ui-svelte
+
 ## 13.0.0
 
 ### Major Changes
