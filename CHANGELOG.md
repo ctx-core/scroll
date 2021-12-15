@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 14.0.3
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/object@22.0.4
+  - @ctx-core/store@27.0.51
+
 ## 14.0.2
 
 ### Patch Changes
