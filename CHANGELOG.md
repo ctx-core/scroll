@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 14.0.1
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/object@22.0.1
+  - @ctx-core/store@27.0.48
+
 ## 14.0.0
 
 ### Major Changes
