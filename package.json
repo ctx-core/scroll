@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "14.0.5",
+	"version": "14.0.6",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -33,11 +33,11 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/object": "workspace:^22.0.6",
-		"@ctx-core/store": "workspace:^27.0.53"
+		"@ctx-core/object": "workspace:^22.0.7",
+		"@ctx-core/store": "workspace:^27.0.54"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.93",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.94",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"rimraf": "^3.0.2",
