@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "14.0.3",
+	"version": "14.0.4",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -17,26 +17,27 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
 	},
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rimraf dist",
+		"clean": "rimraf dist && npm run clean_tsbuildinfo",
+		"clean_tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
 		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/object": "workspace:^22.0.4",
-		"@ctx-core/store": "workspace:^27.0.51"
+		"@ctx-core/object": "workspace:^22.0.5",
+		"@ctx-core/store": "workspace:^27.0.52"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.91",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.92",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"rimraf": "^3.0.2",

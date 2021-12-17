@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 14.0.4
+
+### Patch Changes
+
+- fix: build
+- Updated dependencies
+  - @ctx-core/object@22.0.5
+  - @ctx-core/store@27.0.52
+
 ## 14.0.3
 
 ### Patch Changes
