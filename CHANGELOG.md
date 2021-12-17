@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 14.0.5
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+
 ## 14.0.4
 
 ### Patch Changes
