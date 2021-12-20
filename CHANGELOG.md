@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 15.0.0
+
+### Major Changes
+
+- using @ctx-core/nanostores for stores instead of @ctx-core/store,@ctx-core/svelte
+
 ## 14.0.7
 
 ### Patch Changes
