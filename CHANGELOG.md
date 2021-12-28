@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 15.0.6
+
+### Patch Changes
+
+- fix: package.json: compile types: + compile:source,compile:declaration
+
 ## 15.0.5
 
 ### Patch Changes
