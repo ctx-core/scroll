@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 15.0.7
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/nanostores@0.3.1
+
 ## 15.0.6
 
 ### Patch Changes
