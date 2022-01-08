@@ -1,5 +1,14 @@
 # @ctx-core/scroll
 
+## 15.0.10
+
+### Patch Changes
+
+- sideEffects = false
+- Updated dependencies
+  - @ctx-core/nanostores@0.3.4
+  - @ctx-core/object@22.0.12
+
 ## 15.0.9
 
 ### Patch Changes
