@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "15.0.12",
+	"version": "15.0.13",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "workspace:^0.3.6",
+		"@ctx-core/nanostores": "workspace:^0.3.7",
 		"@ctx-core/object": "workspace:^22.0.12"
 	},
 	"devDependencies": {
