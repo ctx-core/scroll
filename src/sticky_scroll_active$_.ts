@@ -1,7 +1,7 @@
 import { assign, b_, B } from '@ctx-core/object'
 import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
 const key = 'sticky_scroll_active$'
-export const sticky_scroll_active$_b:B<sticky_scroll_active$_T> = b_(key, ()=>{
+export const sticky_scroll_active$_:B<sticky_scroll_active$_T> = b_(key, ()=>{
 	const sticky_scroll_active$ = atom$<sticky_scroll_active_T>({})
 	return assign(sticky_scroll_active$, {
 		add_sticky_scroll_active,
@@ -37,7 +37,4 @@ export interface sticky_scroll_active$_T extends WritableAtom$<sticky_scroll_act
 	remove_sticky_scroll_active:(key:string)=>void
 	sticky_scroll_active_key_active_:(key:string)=>void
 	sticky_scroll_active_key_match_:(key:string, active:any)=>void
-}
-export {
-	sticky_scroll_active$_b as b__active__Sticky__Scroll,
 }
