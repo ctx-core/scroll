@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "16.0.5",
+	"version": "16.0.6",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -35,12 +35,12 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^0.6.0",
+		"@ctx-core/nanostores": "^0.7.1",
 		"@ctx-core/object": "*"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.138",
+		"@swc/core": "^1.2.139",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
