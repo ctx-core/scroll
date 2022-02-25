@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 17.0.3
+
+### Patch Changes
+
+- fix: sticky*scroll_active_key_active*,sticky*scroll_active_key_match*: return type: boolean
+
 ## 17.0.2
 
 ### Patch Changes
