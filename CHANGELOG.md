@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 17.0.0
+
+### Major Changes
+
+- extract functions from sticky*scroll_active\$*(ctx)
+
+  add*sticky_scroll_active,remove_sticky_scroll_active,sticky_scroll_active_key_active*,sticky*scroll_active_key_match*
+
 ## 16.0.6
 
 ### Patch Changes
