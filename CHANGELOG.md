@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 17.0.2
+
+### Patch Changes
+
+- sticky*scroll_active\$*:+ jsdoc
+
 ## 17.0.1
 
 ### Patch Changes
