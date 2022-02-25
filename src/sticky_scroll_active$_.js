@@ -1,5 +1,5 @@
-import { assign, b_ } from '@ctx-core/object'
 import { atom$ } from '@ctx-core/nanostores'
+import { b_ } from '@ctx-core/object'
 export const sticky_scroll_active$_ = b_('sticky_scroll_active$', ()=>
 	atom$({}))
 export function add_sticky_scroll_active(ctx, key) {
