@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 17.0.1
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 17.0.0
 
 ### Major Changes
