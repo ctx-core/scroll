@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 17.0.10
+
+### Patch Changes
+
+- update dependencies
+
 ## 17.0.9
 
 ### Patch Changes
