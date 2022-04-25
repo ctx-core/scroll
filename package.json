@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "17.0.12",
+	"version": "17.0.13",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -33,13 +33,13 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^1.0.13",
+		"@ctx-core/nanostores": "^1.0.14",
 		"@ctx-core/object": "^22.1.6"
 	},
 	"devDependencies": {
 		"c8": "^7.11.2",
-		"check-dts": "^0.6.6",
-		"tslib": "^2.3.1",
+		"check-dts": "^0.6.7",
+		"tslib": "^2.4.0",
 		"tsm": "^2.2.1",
 		"typescript": "next",
 		"uvu": "^0.5.3"

@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 17.0.13
+
+### Patch Changes
+
+- tslib: ^2.3.1 -> ^2.4.0
+- Updated dependencies
+  - @ctx-core/nanostores@1.0.14
+
 ## 17.0.12
 
 ### Patch Changes
