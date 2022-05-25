@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "17.0.18",
+	"version": "17.0.19",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -34,7 +34,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/nanostores": "^1.0.19",
-		"@ctx-core/object": "^22.1.10"
+		"@ctx-core/object": "^22.2.0"
 	},
 	"devDependencies": {
 		"c8": "^7.11.3",
