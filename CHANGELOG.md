@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 17.1.0
+
+### Minor Changes
+
+- \__ suffix aliased by \$_
+
 ## 17.0.24
 
 ### Patch Changes
