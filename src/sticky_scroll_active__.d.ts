@@ -1,4 +1,4 @@
-import { WritableAtom_ } from '@ctx-core/nanostores'
+import { type WritableAtom_ } from '@ctx-core/nanostores'
 import { B, Ctx } from '@ctx-core/object'
 export declare const sticky_scroll_active__:B<sticky_scroll_active__T>
 export type sticky_scroll_active_T = Record<string, boolean>
