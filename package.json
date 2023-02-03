@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "17.1.23",
+	"version": "17.1.24",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^2.2.19",
+		"@ctx-core/nanostores": "^2.2.20",
 		"@ctx-core/object": "^24.1.2"
 	},
 	"devDependencies": {
