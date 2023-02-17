@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 17.2.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 17.1.26
 
 ### Patch Changes

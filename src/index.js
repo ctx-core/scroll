@@ -1,6 +1,5 @@
-export * from './is_active_.js'
-export * from './is_visible_.js'
-export * from './out_is_active_.js'
-export * from './out_is_visible_.js'
-export * from './sticky_scroll_active__.js'
-
+export * from './is_active_/index.js'
+export * from './is_visible_/index.js'
+export * from './out_is_active_/index.js'
+export * from './out_is_visible_/index.js'
+export * from './sticky_scroll_active__/index.js'

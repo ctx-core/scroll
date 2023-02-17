@@ -1,4 +1,4 @@
-import { out_is_active_ } from './out_is_active_.js'
+import { out_is_active_ } from '../out_is_active_/index.js'
 /**
  * @param {HTMLElement}el
  * @return {boolean}
