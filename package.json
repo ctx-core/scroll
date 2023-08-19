@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "17.2.100",
+	"version": "17.2.101",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 	"devDependencies": {
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
-		"tslib": "^2.6.1",
+		"tslib": "^2.6.2",
 		"tsx": "^3.12.7",
 		"typescript": "next",
 		"uvu": "^0.5.6"

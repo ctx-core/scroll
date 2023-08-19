@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 17.2.101
+
+### Patch Changes
+
+- tslib: ^2.6.1 -> ^2.6.2
+
 ## 17.2.100
 
 ### Patch Changes
