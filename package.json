@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "17.2.118",
+	"version": "17.3.0",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -17,10 +17,17 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./is_active_",
+		"./is_visible_",
+		"./out_is_active_",
+		"./out_is_visible_",
+		"./sticky_scroll_active__"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -33,8 +40,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^7.0.8",
-		"@ctx-core/object": "^30.0.0"
+		"@ctx-core/nanostores": "^7.1.0",
+		"@ctx-core/object": "^30.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",

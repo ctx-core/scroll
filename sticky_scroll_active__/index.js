@@ -1,6 +1,6 @@
 import { atom_ } from '@ctx-core/nanostores'
 import { be_ } from '@ctx-core/object'
-/** @type {typeof import('./sticky_scroll_active__.d.ts').sticky_scroll_active__} */
+/** @type {typeof import('./index.d.ts').sticky_scroll_active__} */
 export const sticky_scroll_active__ = be_('sticky_scroll_active_',
 	()=>
 		atom_({}))
