@@ -4,8 +4,9 @@ export const [
 	sticky_scroll_active$_,
 	sticky_scroll_active_,
 	sticky_scroll_active__set,
-] = /** @type {be_atom_triple_T<sticky_scroll_active_T>} */ be_atom_triple_(()=>({}))
-	.config({ id: 'sticky_scroll_active_' })
+] = /** @type {be_atom_triple_T<sticky_scroll_active_T>} */ be_atom_triple_(()=>(
+	{}),
+{ id: 'sticky_scroll_active_' })
 export { sticky_scroll_active$_ as sticky_scroll_active__ }
 /**
  * @param {import('@ctx-core/object').Ctx}ctx
