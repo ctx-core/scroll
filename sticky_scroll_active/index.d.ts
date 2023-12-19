@@ -1,5 +1,5 @@
 import type { be_atom_triple_T } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 export declare const sticky_scroll_active$_:be_atom_triple_T<sticky_scroll_active_T>
 export { sticky_scroll_active$_ as sticky_scroll_active__ }
 export type sticky_scroll_active_T = Record<string, boolean>

@@ -1,3 +1,4 @@
+/// <reference types="ctx-core" />
 import { be_atom_triple_ } from '@ctx-core/nanostores'
 /** @type {typeof import('./index.d.ts').sticky_scroll_active$_} */
 export const [
@@ -9,7 +10,7 @@ export const [
 { id: 'sticky_scroll_active_' })
 export { sticky_scroll_active$_ as sticky_scroll_active__ }
 /**
- * @param {import('@ctx-core/object').Ctx}ctx
+ * @param {Ctx}ctx
  * @param {string}key
  */
 export function add_sticky_scroll_active(ctx, key) {
@@ -19,7 +20,7 @@ export function add_sticky_scroll_active(ctx, key) {
 	sticky_scroll_active$.$ = sticky_scroll_active
 }
 /**
- * @param {import('@ctx-core/object').Ctx}ctx
+ * @param {Ctx}ctx
  * @param {string}key
  */
 export function remove_sticky_scroll_active(ctx, key) {
@@ -29,7 +30,7 @@ export function remove_sticky_scroll_active(ctx, key) {
 	sticky_scroll_active$.$ = sticky_scroll_active
 }
 /**
- * @param {import('@ctx-core/object').Ctx}ctx
+ * @param {Ctx}ctx
  * @param {string}key
  */
 export function sticky_scroll_active_key_active_(ctx, key) {
@@ -39,7 +40,7 @@ export function sticky_scroll_active_key_active_(ctx, key) {
 	return active
 }
 /**
- * @param {import('@ctx-core/object').Ctx}ctx
+ * @param {Ctx}ctx
  * @param {string}key
  * @param {boolean}active
  */

@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 17.3.60
+
+### Patch Changes
+
+- consolidate dependencies
+- Updated dependencies
+  - ctx-core@5.1.0
+
 ## 17.3.59
 
 ### Patch Changes
