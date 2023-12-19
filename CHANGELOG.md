@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 17.3.56
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@10.0.0
+  - @ctx-core/object@31.1.34
+
 ## 17.3.55
 
 ### Patch Changes
