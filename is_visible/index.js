@@ -1,4 +1,4 @@
-import { out_is_visible_ } from '../out_is_visible_/index.js'
+import { out_is_visible_ } from '../out_is_visible/index.js'
 /**
  * @param {HTMLElement}el
  * @return {boolean}

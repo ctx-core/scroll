@@ -1,4 +1,4 @@
-import { out_is_active_ } from '../out_is_active_/index.js'
+import { out_is_active_ } from '../out_is_active/index.js'
 /**
  * @param {number}top
  * @param {number}bottom

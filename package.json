@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "17.3.71",
+	"version": "18.0.0",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -21,10 +21,10 @@
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"./is_active_",
-		"./is_visible_",
-		"./out_is_active_",
-		"./out_is_visible_",
+		"is_active",
+		"is_visible",
+		"out_is_active",
+		"out_is_visible",
 		"sticky_scroll_active"
 	],
 	"types": "./index.d.ts",
@@ -42,7 +42,6 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^10.0.14",
 		"ctx-core": "^5.5.0"
 	},
 	"devDependencies": {

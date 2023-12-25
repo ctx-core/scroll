@@ -1,13 +1,15 @@
 /// <reference types="ctx-core" />
-import { be_atom_triple_ } from '@ctx-core/nanostores'
-/** @type {typeof import('./index.d.ts').sticky_scroll_active$_} */
+/// <reference types="./index.d.ts" />
+import { be_sig_triple_ } from 'ctx-core/rmemo'
+/** @type {typeof sticky_scroll_active$_} */
 export const [
 	sticky_scroll_active$_,
 	sticky_scroll_active_,
 	sticky_scroll_active__set,
-] = /** @type {be_atom_triple_T<sticky_scroll_active_T>} */ be_atom_triple_(()=>(
-	{}),
-{ id: 'sticky_scroll_active_' })
+] = /** @type {be_sig_triple_T<sticky_scroll_active_T>} */
+	be_sig_triple_(()=>(
+		{}),
+	{ id: 'sticky_scroll_active_' })
 export { sticky_scroll_active$_ as sticky_scroll_active__ }
 /**
  * @param {Ctx}ctx

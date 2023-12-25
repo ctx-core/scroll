@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 18.0.0
+
+### Major Changes
+
+- rmemo instead of @ctx-core/nanostores
+
 ## 17.3.71
 
 ### Patch Changes
