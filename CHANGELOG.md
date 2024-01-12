@@ -1,5 +1,11 @@
 # @ctx-core/scroll
 
+## 18.0.16
+
+### Patch Changes
+
+- ctx-core: ^5.17.1 -> ^5.18.0
+
 ## 18.0.15
 
 ### Patch Changes
