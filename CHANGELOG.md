@@ -1,5 +1,13 @@
 # @ctx-core/scroll
 
+## 18.0.91
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 18.0.90
 
 ### Patch Changes
