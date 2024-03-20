@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/scroll",
-	"version": "18.0.91",
+	"version": "18.0.92",
 	"description": "ctx-core scroll",
 	"keywords": [
 		"ctx-core",
@@ -47,7 +47,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.1"
+		"ctx-core": "^6.6.2"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
