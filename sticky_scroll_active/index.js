@@ -1,15 +1,15 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { be_sig_triple_ } from 'ctx-core/rmemo'
+import { id_be_sig_triple_ } from 'ctx-core/rmemo'
 /** @type {typeof sticky_scroll_active$_} */
 export const [
 	sticky_scroll_active$_,
 	sticky_scroll_active_,
 	sticky_scroll_active__set,
 ] = /** @type {be_sig_triple_T<sticky_scroll_active_T>} */
-	be_sig_triple_(()=>(
-		{}),
-	{ id: 'sticky_scroll_active_' })
+	id_be_sig_triple_(
+		'sticky_scroll_active_',
+		()=>({}))
 export { sticky_scroll_active$_ as sticky_scroll_active__ }
 /**
  * @param {ctx_T}ctx
